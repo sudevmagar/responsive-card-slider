@@ -105,28 +105,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Global styles for Swiper customization */}
-      <style jsx global>{`
-        .custom-pagination {
-          position: absolute;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        .swiper-pagination-bullet {
-          margin: 0 5px !important;
-        }
-        .swiper, .swiper-wrapper, .swiper-slide {
-          overflow: visible !important;
-          height: auto !important;
-          position: relative !important;
-        }
-        .swiper-pagination {
-          position: static !important;
-        }
-      `}</style>
     </div>
   );
 }
